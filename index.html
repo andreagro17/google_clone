@@ -28,14 +28,15 @@
             <div class="flex-dos">
                     <div class="nav-tool">
                         <div class="nav-tool-logo">
-                            <a><img src="google_clone_img/img/g-logo.png" alt="Responsive image" class="img-thumbnail"></a>
+                            <a class="logo"></a>
+                            <!-- <a><img src="google_clone_img/img/g-logo.png" alt="Responsive image" class="img-thumbnail"></a> -->
                         </div>
                         <div class="nav-tool-list">
                             <ul>
-                                    <li>Teléfonos móviles<img src="google_clone_img/icons/chevron-down-solid.svg" class="chevron"></li>
-                                    <li>Hogar conectado<img src="google_clone_img/icons/chevron-down-solid.svg" class="chevron"></li>
-                                    <li>Videojuegos</li>
-                                    <li>Accesorios<img src="google_clone_img/icons/chevron-down-solid.svg" class="chevron"></li>
+                                    <li><a>Teléfonos móviles</a><img src="google_clone_img/icons/chevron-down-solid.svg" class="chevron"></li>
+                                    <li><a>Hogar conectado</a><img src="google_clone_img/icons/chevron-down-solid.svg" class="chevron"></li>
+                                    <li><a>Videojuegos</a></li>
+                                    <li><a>Accesorios</a><img src="google_clone_img/icons/chevron-down-solid.svg" class="chevron"></li>
                                 </ul>
                             </div>
                         <!-- <button data-state="inactive" data-category-id="phones" class="chevron" >        
@@ -62,10 +63,10 @@
             
                 <div class="nav-icon">
                     <ul class="list-inline text-right">
-                        <li class="list-inline-item"><img src="google_clone_img/icons/search-solid.svg"></li>
-                        <li class="list-inline-item"><img src="google_clone_img/icons/question-circle-solid.svg"></li>
-                        <li class="list-inline-item"><img src="google_clone_img/icons/shopping-cart-solid.svg"></li>
-                        <li class="list-inline-item"><img src="google_clone_img/icons/user-solid.svg"></li>
+                        <li><a><img src="google_clone_img/icons/search-solid.svg"></a></li>
+                        <li><a><img src="google_clone_img/icons/question-circle-solid.svg"></a></li>
+                        <li><a><img src="google_clone_img/icons/shopping-cart-solid.svg"></a></li>
+                        <li><a><img src="google_clone_img/icons/user-solid.svg"></li>
                     </ul>
                 </div>
             </div> 
@@ -75,14 +76,12 @@
     
 
     <!-- MAIN  -->
-    <div id="page-main">
-        <!-- HERO: main focal point  -->
+    <!-- HERO: main focal point  -->
         <div class="hero">
-
             <div class="hero-content">
                 <a class="logo-dos">
-                        <img src="google_clone_img/img/g-nest-logo.png">
                     </a>
+                    <!-- <img src="google_clone_img/img/g-nest-logo.png" class="logo-dos"> -->
                 <h1 class="hero-title hero-flex">
                     Nest y Google Home. Ahora bajo el mismo techo.
                 </h1> 
@@ -92,11 +91,9 @@
 
         <!-- SERVICES  -->
         
-        <div id="textos" class="site-section">
-            
-            <div class="section-header">
+         <div class="section-header">
                 
-            </div>
+            
             <div class="site-section-inside">
 
                     <p>
@@ -123,26 +120,114 @@
                     </p>
                 
             </div>
-            <div class="nest_com">
-                <h2>
-                    Nest.com se ha integrado en Google Store.
-                </h2>
-                <h5>
-                    A partir de ahora, Google Store es el lugar al que debes acceder para comprar todos los productos Nest y encontrar información sobre ellos.
-                </h5>
-                 <a class="mqn2-aao ng-scope mqn2-aap" mqn-autotrack-action="google-nest-rebrand-sunset" mqn-autotrack-category="module click" mqn-autotrack-event="module interaction" mqn-autotrack-label="Comprar ahora" mqn2-wombat-data-attrs="" mqn2-wombat-data-attrs-data="data-ak-modal-id" mqn2-wombat-data-attrs-if="" mqn2-wombat-data-attrs-value="wombat-" ng-class="{'mqn2-aap': wombatCtrl.data.button_style_blue || ( !wombatCtrl.data.button_style_blue_fill &amp;&amp; !wombatCtrl.data.button_style_white &amp;&amp; !wombatCtrl.data.button_style_grey &amp;&amp; !wombatCtrl.data.button_style_underline_text ), 'mqn2-aar': wombatCtrl.data.button_style_blue_fill, 'mqn2-aas': wombatCtrl.data.button_style_white, 'mqn2-aat': wombatCtrl.data.button_style_grey, 'mqn2-ag3': wombatCtrl.data.button_style_link, 'mqn2-cny': wombatCtrl.data.button_style_underline_text, 'id-no-nav': wombatCtrl.data.button_idNoNav}" ng-href="/category/connected_home" ng-if="wombatCtrl.data.button_label" ref="" target="_self" href="/category/connected_home">
-                    <span class="mqn2-aaq ng-binding" ng-bind-html="wombatCtrl.htmlSafe(wombatCtrl.data.button_label)">
+            <div class="nest-com">
+
+                <div class="nest-com-intro">
+                    <p>Nest.com se ha integrado en Google Store.</p>
+                </div>
+                <div class="nest-com-intro-des">
+                    <h5>A partir de ahora, Google Store es el lugar al que debes acceder para comprar todos los productos Nest y encontrar información sobre ellos. </h5>
+                </div>
+
+                <div class="butom">
+                    >
+                    <a><button @click="comprar()">Comprar ahora</button></a>
+                </div>
+                 <!-- <a><span class="botm">
                      Comprar ahora
                     </span>
                 </a>
-                 
+                  -->
             </div>
+        
                         
             
 
             
         </div>
-    
+        <div id="second_part" class="section-header-about">
+            
+            <div class="service-box-a">
+                <a></a>
+            </div>
+            <div class="service-box-wr">
+                    <p>Todo en un mismo lugar.</p>
+                
+                <div class="service-box-wr-2">
+                    <h5>Todos tus productos y servicios de Google Nest se integran
+                        <br>a la perfección en tu cuenta de Google. 
+                        <br>Además, la protección que ofrece Google ayuda a mantener la seguridad de tus datos.</5>
+                        <br>
+                <div class="service-box-wr-3">
+                        <a href="https://nest.com/es/whats-happening/" target="_blank">Más información</a>
+                    </div>
+                    </div>
+            </div>
+        </div>
+
+        <div id="third_part" class="section-header-about-three">
+             <div class="service-box-wr">
+                    <p>Tu privacidad es lo primero.</p>
+                    
+                    <div class="service-box-wr-2">
+                        <h5>Tu casa es un lugar especial. Es donde tú decides quién puede entrar. 
+                            <br>Es importante que confíes en lo que dejas entrar en tu casa y nosotros  
+                            <br>nos comprometemos a ganarnos esa confianza. Por eso 
+                            <br> proporcionamos una serie de compromisos de privacidad que se 
+                            <br> aplican a todos nuestros productos y servicios para la casa conectada.
+                        </5>
+                            <br>
+                    <div class="service-box-wr-3">
+                            <a href="https://nest.com/es/whats-happening/" target="_blank">Más información</a>
+                    </div>
+                    </div>
+                </div>
+                <div class="service-box-b">
+                    <a></a>
+            </div>
+                
+            </div>
+       <!-- FOOTER  -->
+       <div id="page-footer">
+            <footer class="last_part">
+                    <div class="last_part_one">
+                        <div class="last_part_logo">
+                            <img src="../google-clone/google_clone_img/img/logo-store.png" alt="Logo-store">
+                        </div>
+                        <div class="negro">
+                            <ul class="list-unstyled">
+                                
+                                <li><a class="negro" href="https://support.google.com/store/answer/6380409?hl=es" target="_blank">Hacer un pedido</a></li>
+                                
+                                <li><a class="negro" href="https://support.google.com/store/answer/6380752?hl=es" target="_blank">Opciones de envío</a></li>
+                                
+                                <li><a class="negro" href="https://support.google.com/store/answer/2411789?hl=es" target="_blank">Realizar el seguimiento de un paquete</a></li>
+                                
+                                <li><a class="negro" href="https://support.google.com/store/answer/2462844?hl=es" target="_blank">Disponibilidad por país</a></li>
+
+                                <li><a class="negro" href="https://store.google.com/es/repaircenter" target="_blank">Reparaciones</a></li>
+                                
+                            </ul>
+                        </div>
+                    </div>    
+                    <div class="last_part_two">
+                        <div class="last_part_two_icons">
+                        <ul class="list-inline">
+                                <li class="list-inline-item"><img src="../google-clone/google_clone_img/png/001-facebook.png"></li>
+                                <li class="list-inline-item"><img src="../google-clone/google_clone_img/png/011-instagram.png"></li>
+                                <li class="list-inline-item"><img src="../google-clone/google_clone_img/png/002-twitter.png"></li>
+                                <li class="list-inline-item"><img src="../google-clone/google_clone_img/png/008-youtube.png""></li>
+                                
+                            </ul>
+                        </div>
+                    </div>    
+                  
+                        </div>
+                
+            </footer>
+            </div>
+        </body>
+        </html>
         
 
 </body>

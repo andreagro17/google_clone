@@ -16,6 +16,17 @@ header {
     color: #a7a7a7; 
 }
 
+footer {
+    background: white;
+    font-family: 'Open Sans', arial, sans-serif;  
+    font-size: 20px;
+    color: #a7a7a7; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 .flex-both {  
     display: flex;
@@ -27,15 +38,15 @@ header {
 
         justify-content: center;
         
-        font-size: 14px;
-        line-height: 16px;
         text-align: center;
 
-        padding: 16px 0;  
+        padding: 10px 0;  
     }
 
         span {
             color: #fff !important;
+            font-size: 14px;
+            line-height: 16px;
         }
     .flex-dos {
         width: 100%;
@@ -45,9 +56,10 @@ header {
         
         display: flex;
         justify-content: space-between;
+        
     }
     .nav-tool {
-        width: 40%;
+        width: 100%;
 
         display: flex;
         align-items: center;
@@ -57,24 +69,50 @@ header {
         color: #a7a7a7; 
     
     }
-    .nav-tool ul {
+    .nav-tool ul  {
         margin: 20px;
         padding:  2px;
     }
     .nav-tool ul li {
         display: inline-block;
+
         margin-right: 2px;
-        font-size: 12px;
         padding-right: 5px;
+
+        color: #3c4043;
+
+        line-height: 20px;
+        font-weight: 400;
+    
     }
+    .nav-tool ul li a {
+    padding: 5px 5px;
+    font-size: 12px;
+    }
+
+
+
+    .nav-tool ul li a:hover {
+        background: rgba(212, 204, 204, 0.644);
+        color: black;
+        font-weight: bold;
+        border-radius: 10px;
+        transition: 0.3s ease all;
+
+    }
+   
     .chevron {
         position: relative;
         width: 0.45em;
         padding-left: 0.30em;
         opacity: 0.4;
     }   
-    .img-thumbnail {
-        width: 14px;
+    .logo {
+        background-image: url(../google_clone_img/img/g-logo.png);
+        background-size: cover;
+        display: inline-block;
+        height: 24px;
+        width: 24px;
     }
 
     /* button {
@@ -88,6 +126,7 @@ header {
 
 
 .nav-icon {
+    width: 80%;
     display: flex;
     justify-content: flex-end;
     
@@ -97,8 +136,8 @@ header {
     .nav-icon ul li {
     
     display: inline-block;
-    margin-right: 30px;
-        
+    
+    
     }
 
     .nav-icon ul li img {
@@ -135,18 +174,32 @@ header {
         justify-content: center;
         align-items: center;
 
+        
+
     }
 
-    /* .logo-dos {
-        width: 30px;
-    } */
+
+    .logo-dos {
+        background-image: url(../google_clone_img/img/g-nest-logo.png);
+        background-size: cover;
+        display: inline-block;
+        height: 72px;
+        width: 41px;
+    }
     .hero-title {
         display: block;
+
+        line-height: 50px;
+        font-weight: 600;
+        
         padding: 20px;
+        
+        height: 100%;
+        width: 100%;
     }
 
     .site-section-inside {
-        font-family: 'open sans', arial, sans-serif;
+        font-family: 'Google sans', arial, sans-serif;
         font-weight: 400;
         flex: 1;
         
@@ -154,18 +207,162 @@ header {
         padding: 30px;
     }
 
-    p, h2, h5 {
+    p {
         color: #7e7e7e;
         display: block;
         margin-block-start: 1em;
         margin-block-end: 1em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
+
+        text-size-adjust: 100%;
         text-align: center;
         
-        font-weight: 800;
+        font-family: 'Google sans', arial, sans-serif;
+        font-size: 34px;;
+        font-weight: 600;
+        line-height: 44px;
+    }
+
+    .nest-com {
+        display: flex;
+        flex-direction: column;
+
+        padding-top: 100px;
+    }
+
+    h5 {
+        color: #7e7e7e;
+        font-family: 'Google sans', arial, sans-serif;
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 32px;
+        text-align: center;
+    }
+
+    /* a {
+        width: 100%;
+        display: flex;
+        justify-items: center; */
+        
+
+    
+    button {
+       margin-left: 45%;
+        font-size: 20px;
+        font-weight: 400;
+        background-color: transparent;
+        
+        border: 1;
+    
+        color: blue;
+        
+
 
     }
 
+    #second_part {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-right: 5%;
+        
+    }
+    .service-box-a {
+        display: flex;
+        justify-content: center;
 
+        width: 50%;
+    
+        background-image: url(../google_clone_img/img/content-1.jpg);
+        background-size:cover;
+        
+        min-height: 1113px;
+
+    }
+    .service-box-wr {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        /* position: relative;     */
+    }
+
+    .service-box-wr-2 {
+        margin-top: 50px;
+    }
+
+    .service-box-wr-3 {
+        margin-top: 80px;
+    }
+
+    #third_part {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        margin-left: 8%;
+        
+        
+    }
+    .service-box-b {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        
+        
+        width: 55%;
+        
+    
+        background-image: url(../google_clone_img/img/content-2.jpg);
+        background-size:cover;
+        
+        min-height: 1113px;
+
+    }
+
+    .last_part {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+
+    }
+    .last_part_one {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .last_part_logo {
+        padding-left: 5%;
+    }
+    
+
+    .list-unstyled {
+        padding-right: 30px;
+        list-style: none;
+        float:right;
+        font-weight: 600;
+        line-height: 80px;
+    }
+    .last_part_two {
+        background-color: #cacacaa9;
+        width: 100%;
+
+        justify-content: space-between;
+        
+       
+
+        padding-left: 5%; 
+
+    }
+    .last_part_two_icons ul li {
+        display: inline;
+
+    }
+
+    .last_part_two_icons ul li img {
+        width: 40px;
+    
+    }
 
