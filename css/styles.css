@@ -1,55 +1,137 @@
 /* HEADER STYLE*/
+
 header {
-    background: #222222;
-    color: #ffffff;
-    padding: 20px 30px;
+    background: white;
+    color: #a7a7a7;
+    padding-left: 10px;
+    
+}
+.flex-both {
+    font-family: 'open sans', arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.flex-uno {
+
+    background-color: #4285f4;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 16px 0;
+    
+    text-align: center;
+    width: 100%;
+}
+span {
+    color: #fff !important;
+}
+.flex-dos {
+    /* justify-content: center; */
+    flex-wrap: nowrap;
+    /* display: inline-block; */
+    }
+        /* Logo nest inside header*/
+        img {
+            width: 30px;
+            /* padding-top: 10px; */
+        }
+        /*productos*/
+        .products {
+            padding-top: 10px;
+            display: inline-block;
+            padding-top: 15px;
+            padding-left:15px;
+            justify-items: flex-start;
+            
+        }
+            button {
+                font-size: 14px;
+                font-weight: 400;
+                background-color: transparent;
+                border: 0;
+            }
+        
+        /* Search */
+        .search {
+            /* justify-items: center; */
+        }
+
+        /*nav bar*/
+        .main-navigation {
+            justify-items: flex-end;
+            
+            text-align: right;
+
+            }
+
+            .main-navigation ul li {
+                
+                display: inline-block;
+                
+            }
+
+            .main-navigation ul li img {
+                /* display: block; */
+                width: 20px;
+                
+            }
+        
+
+
+
+.hero {
+    font-family: 'open sans', arial, sans-serif;
+    min-height: 800px;
+    text-align: center;
+    background: #555;
+    background-image: url(../google_clone_img/img/hero.jpg);
+    background-size: cover;
+    padding-top: 50px;
 }
 
-/* Logo nest inside header*/
 
- header #page-header {
-     color: white;
-     text-decoration: none;
-     width: 49%;
-     display: inline-block
- }
+    
+    .hero-content {
+        color: white;
+        padding-top: 20px;
+        line-height: 1;
+        position: absolute;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
- header img {
-     width: 100px;
-     border-radius: 30%;
-     margin-right: 8px;
-     vertical-align: middle;
+    }
 
- }
+    /* .logo-dos {
+        width: 30px;
+    } */
+    .hero-title {
+        display: block;
+        padding: 20px;
+    }
 
- header h2 {
-     font-size: 16px;
- }
+    .site-section-inside {
+        font-family: 'open sans', arial, sans-serif;
+        font-weight: 400;
+        flex: 1;
+        
+        margin: 0 auto 12px auto;
+        padding: 30px;
+    }
 
- /* Main Navigation */
+    p {
+        color: #7e7e7e;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 800;
 
- header #main-navigation {
-     width: 49%;
-     display: inline-block;
-     text-align: right;
- }
+    }
 
- header #main-navigation ul {
-    list-style: none;
-    padding: 0;
-}
 
-header #main-navigation ul li {
-    display: inline-block;
-}
-
-header #main-navigation ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-}
-
-header #main-navigation ul li a:hover {
-    background: #444;
-    border-radius: 3px;
-    transition: 0.3s ease all;
