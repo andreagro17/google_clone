@@ -19,7 +19,7 @@ header {
 footer {
     background: white;
     font-family: 'Open Sans', arial, sans-serif;  
-    font-size: 20px;
+    font-size: 14px;
     color: #a7a7a7; 
     width: 100%;
     margin: 0;
@@ -266,7 +266,7 @@ footer {
         display: flex;
         justify-content: space-between;
         margin-top: 50px;
-        margin-right: 5%;
+        
         
     }
     .service-box-a {
@@ -287,6 +287,7 @@ footer {
         justify-content: center;
         align-content: center;
         /* position: relative;     */
+        padding: 10px;
     }
 
     .service-box-wr-2 {
@@ -302,7 +303,7 @@ footer {
         display: flex;
         justify-content: space-between;
         margin-top: 50px;
-        margin-left: 8%;
+       
         
         
     }
@@ -312,7 +313,7 @@ footer {
         align-items: center;
         
         
-        width: 55%;
+        width: 50%;
         
     
         background-image: url(../google_clone_img/img/content-2.jpg);
@@ -335,6 +336,7 @@ footer {
 
     .last_part_logo {
         padding-left: 5%;
+        size: 20%;
     }
     
 
@@ -343,7 +345,7 @@ footer {
         list-style: none;
         float:right;
         font-weight: 600;
-        line-height: 80px;
+        line-height: 50px;
     }
     .last_part_two {
         background-color: #cacacaa9;
@@ -362,7 +364,7 @@ footer {
     }
 
     .last_part_two_icons ul li img {
-        width: 40px;
+        width: 30px;
     
     }
 
