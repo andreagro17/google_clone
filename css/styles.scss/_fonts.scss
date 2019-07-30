@@ -1,0 +1,38 @@
+%nav-text{
+    color: $nav-color;
+        font: {
+            size: 12px;
+            weight: $font-weight-1;
+            family: 'Google Sans', arial, sans-serif;
+            
+    }
+    line {
+        height: 18px;
+    }
+}
+
+%h1-text{
+    color: $main-color;
+        font: {
+            size: 34px;
+            weight: $font-weight-2;
+            family: 'Google Sans', arial, sans-serif;
+            
+    }
+        line {
+            height: 44px;
+        }
+}
+
+%p-text{
+    color: $main-color;
+        font: {
+            size: 20px;
+            weight: $font-weight-1;
+            family: 'Google Sans', arial, sans-serif;
+            
+    }
+        line {
+            height: 34px;
+        }
+}

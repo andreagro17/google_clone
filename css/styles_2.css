@@ -1,0 +1,268 @@
+body {
+    width: 100%;
+    margin:0;
+    padding: 0;
+
+    color: #a7a7a7;
+
+    font-family: "Open Sans",Arial,sans-serif;
+
+    font-weight: 400;
+    line-height: 1.5;
+    
+}
+header {
+    display: flex;
+    flex-direction: column;
+    
+    color: #a7a7a7;
+}
+
+.nav-1 { 
+
+    background-color: #4285f4;
+
+    display: flex;
+    justify-content: center;
+
+    padding: 8px;
+    
+    text-align: center;
+}   
+span { 
+    color: white !important;
+    font-size: 12px; 
+    font-weight: 400;
+    font-family: 'Google Sans', arial, sans-serif;    
+}
+
+.nav-2 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    height: 56px;
+    margin-left: 24px;
+
+}
+.nav-2-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-1 {
+    background-image: url(../google_clone_img/img/g-logo.png);
+    background-size: cover;
+    
+    display: flex;
+    align-content: center;
+    
+    height: 24px;
+    width: 24px;
+
+   
+}
+.nav-2 ul {
+    list-style: none;
+
+    display: flex;
+    justify-content: space-between;
+
+    padding-inline-start: 20px;
+  
+}
+.nav-2 ul li {
+    color: #3c4043;
+    padding: 0;
+}
+
+.nav-2 ul li a {
+    padding: 3px 5px;
+    font-size: 12px
+}
+.nav-2 ul li a:hover {
+    background: rgba(212, 204, 204, 0.644);
+    color: black; 
+    border-radius: 10px;
+}
+.chevron {
+    position: relative;
+    width: 0.45em;
+    padding-left: 0.30em;
+    opacity: 0.4;
+}
+
+.nav-2-icon {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav-2-icon ul li img {
+    
+    width: 15px;
+    opacity: 0.5;
+}
+
+.hero {
+    display:flex;
+    flex-direction: column;
+    
+
+    background-image: url(../google_clone_img/img/hero.jpg);
+    background-size: cover;
+
+    padding-top: 50px;
+    min-height: 800px;  
+ 
+}
+.hero-section-1 {
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    
+}
+.logo-dos {
+    
+
+    background-image: url(../google_clone_img/img/g-nest-logo.png);
+    background-size: cover;
+    
+    align-items: center;
+    
+    margin-bottom: 20px;
+    
+
+    height: 72px;
+    width: 41px;
+}
+.hero-section1-tittle {   
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    
+    text-align: center;
+}
+
+.header__section-uno {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+
+}
+.site__section-uno-inside p, h3 {
+    font-weight: 600;
+    font-size: 24px;
+    padding: 40px;
+
+}
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    padding: 40px;
+}
+h5 {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 40px;
+
+}
+
+button {
+    background-color: white;
+    border: 1px solid #4285f4;
+    border-radius: 5%;
+    padding: 5px;
+    color: #4285f4;
+}
+.header__section-dos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+    margin-top: 100px;
+}
+.header__section-dos-imagen {
+    width: 50%;
+
+    background-image: url(../google_clone_img/img/content-1.jpg);
+    background-size:cover;
+    
+    min-height: 913px;
+}
+.header__section-dos-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.header__section-tres-imagen {
+    width: 50%;
+
+    background-image: url(../google_clone_img/img/content-2.jpg);
+    background-size:cover;
+    
+    min-height: 913px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between; 
+    margin: 20px;
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.footer__logo{
+    display: flex;
+    justify-items: flex-start;
+    margin: 20px;
+}
+footer img {
+        width: 40%;
+        height: 40%;
+}
+
+footer ul {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+  
+    justify-items: center;
+    align-items: center;
+
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+footer ul a {
+    text-decoration:none;
+    font-size: 12px;
+}
+.last_part_two {
+    background-color: #cacacaa9;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 5%; 
+    padding-top: 0;
+
+}
+.last_part_two ul li {
+    display: inline;
+
+}
+
+.last_part_two ul li img {
+    width: 30px;
+    
+}
